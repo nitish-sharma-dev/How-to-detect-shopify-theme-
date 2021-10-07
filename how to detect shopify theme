@@ -1,0 +1,13 @@
+These days many people find shopify themes as per like refrence one. But only some of know how to find it in some cases.
+  If refrence site is using "Minimal theme" 
+  and can't change the theme name from the SCHEMA file then you can find it easily. 
+  I'm going to expalin below how you can find or detect shopify theme
+    1. Just goto store front end which one you want to check for a theme and then open “View Page Source”
+    2. for “View Page Source” you can use shortcuts for
+         > MacOS -  (Command + Option + U)
+         > Windows - (Ctrl + U)
+    3. A new tab will open with the HTML code for the website. You can detect the Shopify theme by pressing Command + F and searching for “Shopify.theme”.
+    This will identify the piece of code that lists the theme name and jump you to a snippet that looks something like this: https://prnt.sc/1v5wea7
+    4. As you can see in attached print screenshot link, in line 117, the name of the Shopify theme in use is "Minimal." 
+
+  If in case the name of theme from SCHEMA file changed then you can't find the shopify theme name.
